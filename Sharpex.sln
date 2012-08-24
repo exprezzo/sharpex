@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpex", "Sharpex\Sharpex.csproj", "{697EF71E-5A99-4D33-A8E8-7DAE5547C043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharpex.Tests", "Sharpex.Tests\Sharpex.Tests.csproj", "{3364B77C-8225-4285-8F14-6C10BA8FDDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{697EF71E-5A99-4D33-A8E8-7DAE5547C043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697EF71E-5A99-4D33-A8E8-7DAE5547C043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697EF71E-5A99-4D33-A8E8-7DAE5547C043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697EF71E-5A99-4D33-A8E8-7DAE5547C043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3364B77C-8225-4285-8F14-6C10BA8FDDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3364B77C-8225-4285-8F14-6C10BA8FDDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3364B77C-8225-4285-8F14-6C10BA8FDDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3364B77C-8225-4285-8F14-6C10BA8FDDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
