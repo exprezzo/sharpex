@@ -6,3 +6,11 @@ C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\bin\D
 C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\obj\Debug\Sharpex.Tests.dll
 C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\obj\Debug\Sharpex.Tests.pdb
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\bin\Debug\Sharpex.Tests.dll.config
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\bin\Debug\Sharpex.Tests.dll
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\bin\Debug\Sharpex.Tests.pdb
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\bin\Debug\Sharpex.dll
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\bin\Debug\Sharpex.pdb
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\obj\Debug\Sharpex.Tests.dll
+C:\Users\cbibriesca\Documents\Visual Studio 2010\Projects\sharpex\Sharpex.Tests\obj\Debug\Sharpex.Tests.pdb
