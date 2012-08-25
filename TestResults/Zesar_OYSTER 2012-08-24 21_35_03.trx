@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ba43673b-c2ed-4b46-be66-f5670e561ab0" name="Zesar@OYSTER 2012-08-24 21:35:03" runUser="OYSTER\Zesar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="763f8059-c8ac-45db-9861-ea4d52966189">
+    <Deployment runDeploymentRoot="Zesar_OYSTER 2012-08-24 21_35_03">
+      <DeploymentItem filename="C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex\bin\Sharpex.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-24T21:35:03.7391165-06:00" queuing="2012-08-24T21:35:15.1707703-06:00" start="2012-08-24T21:35:15.3997834-06:00" finish="2012-08-24T21:35:18.9739879-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="097c8aa6-885d-9e95-fb0f-0b1ba99c4877">
+      <Execution id="fb7056b4-a2bb-4a8f-b81e-e88f65cb7439" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="9819903b-53c6-7b1e-e80b-4b0c09c5c3d3">
+      <Execution id="90c97f77-a62d-4ae0-983d-2b56add4697d" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="55c1056a-47d8-f96c-349a-e5a02b2eb04f">
+      <Execution id="34cfd81f-b740-48a2-bb0a-d4ddbabda3e2" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="eea71f5f-acea-ae93-2d6a-d540b0c8a0ca">
+      <Execution id="a7976ce6-e84c-44f7-a562-d04e594190c2" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="139bc89d-29e7-648f-a586-a7d947674ee4">
+      <Execution id="1203550a-a605-4ada-86e6-8cd6324a4e8d" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="5fddec01-4857-7351-a42a-d7a1d34457d9">
+      <Execution id="aad63eaf-31b3-4960-bfc2-f42632b4060e" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="d7d0f1d6-3f79-c8e9-3b7b-5695b47ec50e">
+      <Execution id="a836da8e-36a8-4f07-860e-48262b73f1a4" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="f26d4c4a-7ae4-506a-e6b5-0ca96039182f">
+      <Execution id="8fe8791f-3337-4005-ae13-1343dbf08358" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="7dce399c-67be-c116-fc1f-c0d9e454d955">
+      <Execution id="600e743a-d1a9-4e08-9187-bc359018522d" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="69103bed-743a-a731-211a-61ddce9f68ee">
+      <Execution id="c150f615-e914-486d-aa64-377e08ccdd74" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.HomeControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="176ce349-c588-7729-1cfa-d829ea2a5730">
+      <Execution id="8f9ccad9-1443-4528-9e25-2ec8d3ca9d84" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="210e8dc1-31e1-ea58-5a41-2200bc09f4f7">
+      <Execution id="53339dd2-9b4b-4e5f-b220-a4cc66e7cf84" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="5524aa80-068a-556e-8b29-8bfe41fa4886">
+      <Execution id="b7abefae-d226-4411-bed6-51ecfdbdbbd2" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="3ca9a5da-f93f-54de-b26a-009d8a9aaa12">
+      <Execution id="a5e0e5a0-0c9b-462d-b7be-20dc1396a100" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="e352476f-9a60-3234-444d-5981a771b997">
+      <Execution id="c79e8656-0db3-4000-a903-b2ccc5c6cc83" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.HomeControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="de8667ac-7ccd-681f-2fdb-f705d8d6363a">
+      <Execution id="9e9d1b90-8745-47fe-84bb-cc5fb35ee907" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\users\zesar\documents\visual studio 2010\projects\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="15c8846b-a5ec-404a-94b3-1016f2373a7f">
+      <Execution id="414d7ea2-2c53-409c-810c-e455b57700d9" />
+      <TestMethod codeBase="C:/Users/Zesar/Documents/Visual Studio 2010/Projects/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f26d4c4a-7ae4-506a-e6b5-0ca96039182f" executionId="8fe8791f-3337-4005-ae13-1343dbf08358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="210e8dc1-31e1-ea58-5a41-2200bc09f4f7" executionId="53339dd2-9b4b-4e5f-b220-a4cc66e7cf84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de8667ac-7ccd-681f-2fdb-f705d8d6363a" executionId="9e9d1b90-8745-47fe-84bb-cc5fb35ee907" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7d0f1d6-3f79-c8e9-3b7b-5695b47ec50e" executionId="a836da8e-36a8-4f07-860e-48262b73f1a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55c1056a-47d8-f96c-349a-e5a02b2eb04f" executionId="34cfd81f-b740-48a2-bb0a-d4ddbabda3e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="097c8aa6-885d-9e95-fb0f-0b1ba99c4877" executionId="fb7056b4-a2bb-4a8f-b81e-e88f65cb7439" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="139bc89d-29e7-648f-a586-a7d947674ee4" executionId="1203550a-a605-4ada-86e6-8cd6324a4e8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9819903b-53c6-7b1e-e80b-4b0c09c5c3d3" executionId="90c97f77-a62d-4ae0-983d-2b56add4697d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5524aa80-068a-556e-8b29-8bfe41fa4886" executionId="b7abefae-d226-4411-bed6-51ecfdbdbbd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15c8846b-a5ec-404a-94b3-1016f2373a7f" executionId="414d7ea2-2c53-409c-810c-e455b57700d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fddec01-4857-7351-a42a-d7a1d34457d9" executionId="aad63eaf-31b3-4960-bfc2-f42632b4060e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="176ce349-c588-7729-1cfa-d829ea2a5730" executionId="8f9ccad9-1443-4528-9e25-2ec8d3ca9d84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eea71f5f-acea-ae93-2d6a-d540b0c8a0ca" executionId="a7976ce6-e84c-44f7-a562-d04e594190c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dce399c-67be-c116-fc1f-c0d9e454d955" executionId="600e743a-d1a9-4e08-9187-bc359018522d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ca9a5da-f93f-54de-b26a-009d8a9aaa12" executionId="a5e0e5a0-0c9b-462d-b7be-20dc1396a100" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e352476f-9a60-3234-444d-5981a771b997" executionId="c79e8656-0db3-4000-a903-b2ccc5c6cc83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69103bed-743a-a731-211a-61ddce9f68ee" executionId="c150f615-e914-486d-aa64-377e08ccdd74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8fe8791f-3337-4005-ae13-1343dbf08358" testId="f26d4c4a-7ae4-506a-e6b5-0ca96039182f" testName="ChangePassword_Get_ReturnsView" computerName="OYSTER" duration="00:00:00.2706436" startTime="2012-08-24T21:35:15.5947946-06:00" endTime="2012-08-24T21:35:18.0899373-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fe8791f-3337-4005-ae13-1343dbf08358">
+    </UnitTestResult>
+    <UnitTestResult executionId="53339dd2-9b4b-4e5f-b220-a4cc66e7cf84" testId="210e8dc1-31e1-ea58-5a41-2200bc09f4f7" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="OYSTER" duration="00:00:00.1132535" startTime="2012-08-24T21:35:18.1149387-06:00" endTime="2012-08-24T21:35:18.2379458-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53339dd2-9b4b-4e5f-b220-a4cc66e7cf84">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e9d1b90-8745-47fe-84bb-cc5fb35ee907" testId="de8667ac-7ccd-681f-2fdb-f705d8d6363a" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="OYSTER" duration="00:00:00.0028250" startTime="2012-08-24T21:35:18.2449462-06:00" endTime="2012-08-24T21:35:18.3089498-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e9d1b90-8745-47fe-84bb-cc5fb35ee907">
+    </UnitTestResult>
+    <UnitTestResult executionId="a836da8e-36a8-4f07-860e-48262b73f1a4" testId="d7d0f1d6-3f79-c8e9-3b7b-5695b47ec50e" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="OYSTER" duration="00:00:00.0005757" startTime="2012-08-24T21:35:18.3619528-06:00" endTime="2012-08-24T21:35:18.3749536-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a836da8e-36a8-4f07-860e-48262b73f1a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="34cfd81f-b740-48a2-bb0a-d4ddbabda3e2" testId="55c1056a-47d8-f96c-349a-e5a02b2eb04f" testName="ChangePasswordSuccess_ReturnsView" computerName="OYSTER" duration="00:00:00.0003394" startTime="2012-08-24T21:35:18.3859542-06:00" endTime="2012-08-24T21:35:18.3989550-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34cfd81f-b740-48a2-bb0a-d4ddbabda3e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb7056b4-a2bb-4a8f-b81e-e88f65cb7439" testId="097c8aa6-885d-9e95-fb0f-0b1ba99c4877" testName="LogOff_LogsOutAndRedirects" computerName="OYSTER" duration="00:00:00.0011175" startTime="2012-08-24T21:35:18.4179561-06:00" endTime="2012-08-24T21:35:18.4319569-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb7056b4-a2bb-4a8f-b81e-e88f65cb7439">
+    </UnitTestResult>
+    <UnitTestResult executionId="1203550a-a605-4ada-86e6-8cd6324a4e8d" testId="139bc89d-29e7-648f-a586-a7d947674ee4" testName="LogOn_Get_ReturnsView" computerName="OYSTER" duration="00:00:00.0003555" startTime="2012-08-24T21:35:18.4449576-06:00" endTime="2012-08-24T21:35:18.4589584-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1203550a-a605-4ada-86e6-8cd6324a4e8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="90c97f77-a62d-4ae0-983d-2b56add4697d" testId="9819903b-53c6-7b1e-e80b-4b0c09c5c3d3" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="OYSTER" duration="00:00:00.0016744" startTime="2012-08-24T21:35:18.4669589-06:00" endTime="2012-08-24T21:35:18.4789595-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90c97f77-a62d-4ae0-983d-2b56add4697d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7abefae-d226-4411-bed6-51ecfdbdbbd2" testId="5524aa80-068a-556e-8b29-8bfe41fa4886" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="OYSTER" duration="00:00:00.0014824" startTime="2012-08-24T21:35:18.4869600-06:00" endTime="2012-08-24T21:35:18.4989607-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7abefae-d226-4411-bed6-51ecfdbdbbd2">
+    </UnitTestResult>
+    <UnitTestResult executionId="414d7ea2-2c53-409c-810c-e455b57700d9" testId="15c8846b-a5ec-404a-94b3-1016f2373a7f" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="OYSTER" duration="00:00:00.0005158" startTime="2012-08-24T21:35:18.5059611-06:00" endTime="2012-08-24T21:35:18.5189618-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="414d7ea2-2c53-409c-810c-e455b57700d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="aad63eaf-31b3-4960-bfc2-f42632b4060e" testId="5fddec01-4857-7351-a42a-d7a1d34457d9" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="OYSTER" duration="00:00:00.0004555" startTime="2012-08-24T21:35:18.5259622-06:00" endTime="2012-08-24T21:35:18.5359628-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aad63eaf-31b3-4960-bfc2-f42632b4060e">
+    </UnitTestResult>
+    <UnitTestResult executionId="8f9ccad9-1443-4528-9e25-2ec8d3ca9d84" testId="176ce349-c588-7729-1cfa-d829ea2a5730" testName="Register_Get_ReturnsView" computerName="OYSTER" duration="00:00:00.0006449" startTime="2012-08-24T21:35:18.5429632-06:00" endTime="2012-08-24T21:35:18.5559639-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f9ccad9-1443-4528-9e25-2ec8d3ca9d84">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7976ce6-e84c-44f7-a562-d04e594190c2" testId="eea71f5f-acea-ae93-2d6a-d540b0c8a0ca" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="OYSTER" duration="00:00:00.0016467" startTime="2012-08-24T21:35:18.6489693-06:00" endTime="2012-08-24T21:35:18.6629701-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7976ce6-e84c-44f7-a562-d04e594190c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="600e743a-d1a9-4e08-9187-bc359018522d" testId="7dce399c-67be-c116-fc1f-c0d9e454d955" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="OYSTER" duration="00:00:00.0009647" startTime="2012-08-24T21:35:18.6719706-06:00" endTime="2012-08-24T21:35:18.6829712-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="600e743a-d1a9-4e08-9187-bc359018522d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a5e0e5a0-0c9b-462d-b7be-20dc1396a100" testId="3ca9a5da-f93f-54de-b26a-009d8a9aaa12" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="OYSTER" duration="00:00:00.0005533" startTime="2012-08-24T21:35:18.6909717-06:00" endTime="2012-08-24T21:35:18.7009722-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5e0e5a0-0c9b-462d-b7be-20dc1396a100">
+    </UnitTestResult>
+    <UnitTestResult executionId="c79e8656-0db3-4000-a903-b2ccc5c6cc83" testId="e352476f-9a60-3234-444d-5981a771b997" testName="Index" computerName="OYSTER" duration="00:00:00.0009495" startTime="2012-08-24T21:35:18.7079726-06:00" endTime="2012-08-24T21:35:18.7189733-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c79e8656-0db3-4000-a903-b2ccc5c6cc83">
+    </UnitTestResult>
+    <UnitTestResult executionId="c150f615-e914-486d-aa64-377e08ccdd74" testId="69103bed-743a-a731-211a-61ddce9f68ee" testName="About" computerName="OYSTER" duration="00:00:00.0003461" startTime="2012-08-24T21:35:18.7349742-06:00" endTime="2012-08-24T21:35:18.7459748-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c150f615-e914-486d-aa64-377e08ccdd74">
+    </UnitTestResult>
+  </Results>
+</TestRun>

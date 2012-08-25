@@ -1,0 +1,5 @@
+C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex\bin\Sharpex.dll
+C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex\bin\Sharpex.pdb
+C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex\obj\Debug\Sharpex.dll
+C:\Users\Zesar\Documents\Visual Studio 2010\Projects\sharpex\Sharpex\obj\Debug\Sharpex.pdb
