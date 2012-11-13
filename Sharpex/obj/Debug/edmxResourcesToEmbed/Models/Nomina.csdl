@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MARPAC_CorporativaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MARPAC_CorporativaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="RegimenesFiscales" EntityType="MARPAC_CorporativaModel.RegimenesFiscale" />
+  </EntityContainer>
+  <EntityType Name="RegimenesFiscale">
+    <Key>
+      <PropertyRef Name="CodigoRegimen" />
+    </Key>
+    <Property Name="CodigoRegimen" Type="Int32" Nullable="false" />
+    <Property Name="NombreRegimen" Type="String" Nullable="false" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="PideCURP" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Activo" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ID_UsuarioAlta" Type="Int32" />
+    <Property Name="RegistroAlta" Type="DateTime" />
+    <Property Name="ID_UsuarioCambio" Type="Int32" />
+    <Property Name="RegistroCambio" Type="DateTime" />
+  </EntityType>
+</Schema>

@@ -14,7 +14,7 @@ comportamiento_tab_manager={
 	activarComportamiento:function(){
 			
 		this.on('mostrarTab', function(params){
-			console.log("params");console.log(params);
+			
 			this.mostrarTab(params);
 		}, this);
 		this.on('crearTab', this.mostrarTab, this);

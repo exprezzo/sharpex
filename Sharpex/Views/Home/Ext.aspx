@@ -16,9 +16,9 @@
         }
     </style>
     <div >
-        <link rel="stylesheet" type="text/css" href="http://localhost/ext-3.4.0/resources/css/ext-all.css"/>
-    <script type="text/javascript" src="http://localhost/ext-3.4.0/adapter/ext/ext-base.js"></script>
-    <script type="text/javascript" src="http://localhost/ext-3.4.0/ext-all-debug.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://extjs.cachefly.net/ext-3.4.0/resources/css/ext-all.css"/>
+    <script type="text/javascript" src="http://extjs.cachefly.net/ext-3.4.0/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="http://extjs.cachefly.net/ext-3.4.0/ext-all-debug.js"></script>
 	
 	<!-- Cargador de catálogos -->
 	<script type="text/javascript" src="/js/componentes_y_comportamientos/tab_manager/comportamiento_tab_manager.js"></script>

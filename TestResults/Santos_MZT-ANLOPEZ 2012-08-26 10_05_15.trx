@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9fd294ea-deb6-4894-a358-82120ca96bd8" name="Santos@MZT-ANLOPEZ 2012-08-26 10:05:15" runUser="MZT-ANLOPEZ\Santos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="10d50397-1f61-45bb-bb64-f64b8e503691">
+    <Deployment runDeploymentRoot="Santos_MZT-ANLOPEZ 2012-08-26 10_05_15">
+      <DeploymentItem filename="C:\sharpex\Sharpex\bin\Sharpex.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-26T10:05:15.5236954-06:00" queuing="2012-08-26T10:05:18.4718640-06:00" start="2012-08-26T10:05:18.8788873-06:00" finish="2012-08-26T10:05:20.3059689-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="097c8aa6-885d-9e95-fb0f-0b1ba99c4877">
+      <Execution id="e6f3889f-45f3-4ec1-9794-6fdc54c0dc65" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="9819903b-53c6-7b1e-e80b-4b0c09c5c3d3">
+      <Execution id="39c52baf-dc07-4991-a947-b1ac5301bbae" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="55c1056a-47d8-f96c-349a-e5a02b2eb04f">
+      <Execution id="e19b806d-c0b2-40aa-bf81-83178aa3adc6" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="eea71f5f-acea-ae93-2d6a-d540b0c8a0ca">
+      <Execution id="0ea9e20f-b557-4010-8a00-e367971ad6a5" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="139bc89d-29e7-648f-a586-a7d947674ee4">
+      <Execution id="4e464b96-b8a1-4bee-96ca-c3e1e8cd0b12" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="5fddec01-4857-7351-a42a-d7a1d34457d9">
+      <Execution id="695e0a03-9aec-4001-9dc6-1263d3381128" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="d7d0f1d6-3f79-c8e9-3b7b-5695b47ec50e">
+      <Execution id="826c9b8a-d5ce-468c-9ab2-f31d6f589862" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="f26d4c4a-7ae4-506a-e6b5-0ca96039182f">
+      <Execution id="18baf0c4-14a2-41c5-a266-552f0abfc8a7" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="7dce399c-67be-c116-fc1f-c0d9e454d955">
+      <Execution id="5bed8533-686b-473d-a845-d96f56378f91" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="69103bed-743a-a731-211a-61ddce9f68ee">
+      <Execution id="453e377e-9149-4970-b142-552a58f47176" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.HomeControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="176ce349-c588-7729-1cfa-d829ea2a5730">
+      <Execution id="f58f47d1-7b6f-46d1-89f2-bacbf5dce02d" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="210e8dc1-31e1-ea58-5a41-2200bc09f4f7">
+      <Execution id="6bd17b6f-a76d-4588-96fe-99f194e92445" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="5524aa80-068a-556e-8b29-8bfe41fa4886">
+      <Execution id="ad78ab28-2a22-432f-8074-cdcea4efe557" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="3ca9a5da-f93f-54de-b26a-009d8a9aaa12">
+      <Execution id="28b9c0ae-d7e5-4813-ab56-a8547ab85918" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="e352476f-9a60-3234-444d-5981a771b997">
+      <Execution id="6c75dbe2-6139-432a-a04c-6fea3898afbf" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.HomeControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="de8667ac-7ccd-681f-2fdb-f705d8d6363a">
+      <Execution id="dfc3386e-2f38-427b-a53f-51da8b4744e1" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\sharpex\sharpex.tests\bin\debug\sharpex.tests.dll" id="15c8846b-a5ec-404a-94b3-1016f2373a7f">
+      <Execution id="09295058-183b-4ec0-af6f-0d2c8d8ea46f" />
+      <TestMethod codeBase="C:/sharpex/Sharpex.Tests/bin/Debug/Sharpex.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Sharpex.Tests.Controllers.AccountControllerTest, Sharpex.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="097c8aa6-885d-9e95-fb0f-0b1ba99c4877" executionId="e6f3889f-45f3-4ec1-9794-6fdc54c0dc65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="139bc89d-29e7-648f-a586-a7d947674ee4" executionId="4e464b96-b8a1-4bee-96ca-c3e1e8cd0b12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15c8846b-a5ec-404a-94b3-1016f2373a7f" executionId="09295058-183b-4ec0-af6f-0d2c8d8ea46f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="176ce349-c588-7729-1cfa-d829ea2a5730" executionId="f58f47d1-7b6f-46d1-89f2-bacbf5dce02d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="210e8dc1-31e1-ea58-5a41-2200bc09f4f7" executionId="6bd17b6f-a76d-4588-96fe-99f194e92445" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ca9a5da-f93f-54de-b26a-009d8a9aaa12" executionId="28b9c0ae-d7e5-4813-ab56-a8547ab85918" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5524aa80-068a-556e-8b29-8bfe41fa4886" executionId="ad78ab28-2a22-432f-8074-cdcea4efe557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55c1056a-47d8-f96c-349a-e5a02b2eb04f" executionId="e19b806d-c0b2-40aa-bf81-83178aa3adc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fddec01-4857-7351-a42a-d7a1d34457d9" executionId="695e0a03-9aec-4001-9dc6-1263d3381128" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69103bed-743a-a731-211a-61ddce9f68ee" executionId="453e377e-9149-4970-b142-552a58f47176" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dce399c-67be-c116-fc1f-c0d9e454d955" executionId="5bed8533-686b-473d-a845-d96f56378f91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9819903b-53c6-7b1e-e80b-4b0c09c5c3d3" executionId="39c52baf-dc07-4991-a947-b1ac5301bbae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7d0f1d6-3f79-c8e9-3b7b-5695b47ec50e" executionId="826c9b8a-d5ce-468c-9ab2-f31d6f589862" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de8667ac-7ccd-681f-2fdb-f705d8d6363a" executionId="dfc3386e-2f38-427b-a53f-51da8b4744e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e352476f-9a60-3234-444d-5981a771b997" executionId="6c75dbe2-6139-432a-a04c-6fea3898afbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eea71f5f-acea-ae93-2d6a-d540b0c8a0ca" executionId="0ea9e20f-b557-4010-8a00-e367971ad6a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f26d4c4a-7ae4-506a-e6b5-0ca96039182f" executionId="18baf0c4-14a2-41c5-a266-552f0abfc8a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e6f3889f-45f3-4ec1-9794-6fdc54c0dc65" testId="097c8aa6-885d-9e95-fb0f-0b1ba99c4877" testName="LogOff_LogsOutAndRedirects" computerName="MZT-ANLOPEZ" duration="00:00:00.2359580" startTime="2012-08-26T10:05:19.0418966-06:00" endTime="2012-08-26T10:05:19.9809503-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6f3889f-45f3-4ec1-9794-6fdc54c0dc65">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e464b96-b8a1-4bee-96ca-c3e1e8cd0b12" testId="139bc89d-29e7-648f-a586-a7d947674ee4" testName="LogOn_Get_ReturnsView" computerName="MZT-ANLOPEZ" duration="00:00:00.0057899" startTime="2012-08-26T10:05:19.9839505-06:00" endTime="2012-08-26T10:05:19.9989514-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e464b96-b8a1-4bee-96ca-c3e1e8cd0b12">
+    </UnitTestResult>
+    <UnitTestResult executionId="09295058-183b-4ec0-af6f-0d2c8d8ea46f" testId="15c8846b-a5ec-404a-94b3-1016f2373a7f" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="MZT-ANLOPEZ" duration="00:00:00.0052878" startTime="2012-08-26T10:05:20.0029516-06:00" endTime="2012-08-26T10:05:20.0119521-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09295058-183b-4ec0-af6f-0d2c8d8ea46f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f58f47d1-7b6f-46d1-89f2-bacbf5dce02d" testId="176ce349-c588-7729-1cfa-d829ea2a5730" testName="Register_Get_ReturnsView" computerName="MZT-ANLOPEZ" duration="00:00:00.0011672" startTime="2012-08-26T10:05:20.0139522-06:00" endTime="2012-08-26T10:05:20.0189525-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f58f47d1-7b6f-46d1-89f2-bacbf5dce02d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6bd17b6f-a76d-4588-96fe-99f194e92445" testId="210e8dc1-31e1-ea58-5a41-2200bc09f4f7" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="MZT-ANLOPEZ" duration="00:00:00.1078865" startTime="2012-08-26T10:05:20.0209526-06:00" endTime="2012-08-26T10:05:20.1339591-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bd17b6f-a76d-4588-96fe-99f194e92445">
+    </UnitTestResult>
+    <UnitTestResult executionId="28b9c0ae-d7e5-4813-ab56-a8547ab85918" testId="3ca9a5da-f93f-54de-b26a-009d8a9aaa12" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="MZT-ANLOPEZ" duration="00:00:00.0020523" startTime="2012-08-26T10:05:20.1379593-06:00" endTime="2012-08-26T10:05:20.1459598-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28b9c0ae-d7e5-4813-ab56-a8547ab85918">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad78ab28-2a22-432f-8074-cdcea4efe557" testId="5524aa80-068a-556e-8b29-8bfe41fa4886" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="MZT-ANLOPEZ" duration="00:00:00.0032124" startTime="2012-08-26T10:05:20.1509601-06:00" endTime="2012-08-26T10:05:20.1599606-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad78ab28-2a22-432f-8074-cdcea4efe557">
+    </UnitTestResult>
+    <UnitTestResult executionId="e19b806d-c0b2-40aa-bf81-83178aa3adc6" testId="55c1056a-47d8-f96c-349a-e5a02b2eb04f" testName="ChangePasswordSuccess_ReturnsView" computerName="MZT-ANLOPEZ" duration="00:00:00.0005927" startTime="2012-08-26T10:05:20.1639608-06:00" endTime="2012-08-26T10:05:20.1699611-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e19b806d-c0b2-40aa-bf81-83178aa3adc6">
+    </UnitTestResult>
+    <UnitTestResult executionId="695e0a03-9aec-4001-9dc6-1263d3381128" testId="5fddec01-4857-7351-a42a-d7a1d34457d9" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="MZT-ANLOPEZ" duration="00:00:00.0008361" startTime="2012-08-26T10:05:20.1729613-06:00" endTime="2012-08-26T10:05:20.1779616-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="695e0a03-9aec-4001-9dc6-1263d3381128">
+    </UnitTestResult>
+    <UnitTestResult executionId="453e377e-9149-4970-b142-552a58f47176" testId="69103bed-743a-a731-211a-61ddce9f68ee" testName="About" computerName="MZT-ANLOPEZ" duration="00:00:00.0006868" startTime="2012-08-26T10:05:20.1799617-06:00" endTime="2012-08-26T10:05:20.1839619-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="453e377e-9149-4970-b142-552a58f47176">
+    </UnitTestResult>
+    <UnitTestResult executionId="5bed8533-686b-473d-a845-d96f56378f91" testId="7dce399c-67be-c116-fc1f-c0d9e454d955" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="MZT-ANLOPEZ" duration="00:00:00.0010972" startTime="2012-08-26T10:05:20.1869621-06:00" endTime="2012-08-26T10:05:20.1909623-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bed8533-686b-473d-a845-d96f56378f91">
+    </UnitTestResult>
+    <UnitTestResult executionId="39c52baf-dc07-4991-a947-b1ac5301bbae" testId="9819903b-53c6-7b1e-e80b-4b0c09c5c3d3" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="MZT-ANLOPEZ" duration="00:00:00.0005006" startTime="2012-08-26T10:05:20.1929625-06:00" endTime="2012-08-26T10:05:20.1969627-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39c52baf-dc07-4991-a947-b1ac5301bbae">
+    </UnitTestResult>
+    <UnitTestResult executionId="826c9b8a-d5ce-468c-9ab2-f31d6f589862" testId="d7d0f1d6-3f79-c8e9-3b7b-5695b47ec50e" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="MZT-ANLOPEZ" duration="00:00:00.0004718" startTime="2012-08-26T10:05:20.1989628-06:00" endTime="2012-08-26T10:05:20.2029630-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="826c9b8a-d5ce-468c-9ab2-f31d6f589862">
+    </UnitTestResult>
+    <UnitTestResult executionId="dfc3386e-2f38-427b-a53f-51da8b4744e1" testId="de8667ac-7ccd-681f-2fdb-f705d8d6363a" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="MZT-ANLOPEZ" duration="00:00:00.0005577" startTime="2012-08-26T10:05:20.2049631-06:00" endTime="2012-08-26T10:05:20.2089634-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfc3386e-2f38-427b-a53f-51da8b4744e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c75dbe2-6139-432a-a04c-6fea3898afbf" testId="e352476f-9a60-3234-444d-5981a771b997" testName="Index" computerName="MZT-ANLOPEZ" duration="00:00:00.0004286" startTime="2012-08-26T10:05:20.2109635-06:00" endTime="2012-08-26T10:05:20.2199640-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c75dbe2-6139-432a-a04c-6fea3898afbf">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ea9e20f-b557-4010-8a00-e367971ad6a5" testId="eea71f5f-acea-ae93-2d6a-d540b0c8a0ca" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="MZT-ANLOPEZ" duration="00:00:00.0004823" startTime="2012-08-26T10:05:20.2229642-06:00" endTime="2012-08-26T10:05:20.2269644-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ea9e20f-b557-4010-8a00-e367971ad6a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="18baf0c4-14a2-41c5-a266-552f0abfc8a7" testId="f26d4c4a-7ae4-506a-e6b5-0ca96039182f" testName="ChangePassword_Get_ReturnsView" computerName="MZT-ANLOPEZ" duration="00:00:00.0005452" startTime="2012-08-26T10:05:20.2289645-06:00" endTime="2012-08-26T10:05:20.2329647-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18baf0c4-14a2-41c5-a266-552f0abfc8a7">
+    </UnitTestResult>
+  </Results>
+</TestRun>

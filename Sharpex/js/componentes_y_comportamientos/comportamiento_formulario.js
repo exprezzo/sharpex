@@ -31,7 +31,7 @@ comportamiento_formulario={
 		this.el.mask();
 		this.form.load({
 			params:params,			
-			url: '/'+ this.controlador + '/obtener',
+			url: '/'+ this.controlador + '/obtener/'+params,
 			scope:this,
 			success:function(){
 				this.el.unmask();

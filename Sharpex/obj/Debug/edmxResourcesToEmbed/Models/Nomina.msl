@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MARPAC_CorporativaModelStoreContainer" CdmEntityContainer="MARPAC_CorporativaEntities">
+    <EntitySetMapping Name="RegimenesFiscales">
+      <EntityTypeMapping TypeName="MARPAC_CorporativaModel.RegimenesFiscale">
+        <MappingFragment StoreEntitySet="RegimenesFiscales">
+          <ScalarProperty Name="CodigoRegimen" ColumnName="CodigoRegimen" />
+          <ScalarProperty Name="NombreRegimen" ColumnName="NombreRegimen" />
+          <ScalarProperty Name="PideCURP" ColumnName="PideCURP" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="ID_UsuarioAlta" ColumnName="ID_UsuarioAlta" />
+          <ScalarProperty Name="RegistroAlta" ColumnName="RegistroAlta" />
+          <ScalarProperty Name="ID_UsuarioCambio" ColumnName="ID_UsuarioCambio" />
+          <ScalarProperty Name="RegistroCambio" ColumnName="RegistroCambio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

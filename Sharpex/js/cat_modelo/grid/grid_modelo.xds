@@ -23,9 +23,9 @@
             "userConfig": {
                 "title": "Listado",
                 "store": "stoModelo",
-                "width": 449,
+                "width": 592,
                 "height": 600,
-                "autoExpandColumn": "colNombre",
+                "autoExpandColumn": "",
                 "boxMinHeight": "-ext-undefined-",
                 "autoHeight": "-ext-undefined-"
             },
@@ -129,7 +129,8 @@
                     "snapToGrid": 10,
                     "userConfig": {
                         "store": "stoModelo",
-                        "displayInfo": true
+                        "displayInfo": true,
+                        "pageSize": 5
                     }
                 },
                 {
@@ -138,8 +139,8 @@
                     "jsClass": "MyColumn",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "header": "uuid",
-                        "dataIndex": "uuid",
+                        "header": "Codigo Regimen",
+                        "dataIndex": "CodigoRegimen",
                         "sortable": true,
                         "resizable": "-ext-undefined-",
                         "width": 100
@@ -151,11 +152,24 @@
                     "jsClass": "MyColumn1",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "header": "id",
-                        "dataIndex": "id",
+                        "header": "Nombre Regimen",
+                        "dataIndex": "NombreRegimen",
                         "sortable": true,
                         "resizable": "-ext-undefined-",
                         "width": 100
+                    }
+                },
+                {
+                    "id": "MyColumn3",
+                    "cid": "gridcolumn",
+                    "jsClass": "MyColumn3",
+                    "snapToGrid": 10,
+                    "userConfig": {
+                        "header": "Pide CURP",
+                        "sortable": true,
+                        "resizable": "-ext-undefined-",
+                        "width": 100,
+                        "dataIndex": "PideCURP"
                     }
                 },
                 {
@@ -164,12 +178,12 @@
                     "jsClass": "MyColumn2",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "header": "nombre",
-                        "dataIndex": "nombre",
+                        "header": "Activo",
+                        "dataIndex": "Activo",
                         "sortable": true,
                         "resizable": "-ext-undefined-",
                         "width": 100,
-                        "id": "colNombre"
+                        "id": ""
                     }
                 }
             ]
@@ -195,7 +209,7 @@
                     "jsClass": "MyField",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "name": "uuid"
+                        "name": "CodigoRegimen"
                     }
                 },
                 {
@@ -204,7 +218,7 @@
                     "jsClass": "MyField1",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "name": "id"
+                        "name": "NombreRegimen"
                     }
                 },
                 {
@@ -213,7 +227,16 @@
                     "jsClass": "MyField2",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "name": "nombre"
+                        "name": "Activo"
+                    }
+                },
+                {
+                    "id": "MyField3",
+                    "cid": "datafield",
+                    "jsClass": "MyField3",
+                    "snapToGrid": 10,
+                    "userConfig": {
+                        "name": "PideCURP"
                     }
                 }
             ]

@@ -35,8 +35,9 @@
                     "snapToGrid": 10,
                     "userConfig": {
                         "anchor": "100%",
-                        "fieldLabel": "UUID",
-                        "name": "uuid"
+                        "fieldLabel": "Codigo Regimen",
+                        "name": "CodigoRegimen",
+                        "height": 23
                     }
                 },
                 {
@@ -45,9 +46,9 @@
                     "jsClass": "MyTextField",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "fieldLabel": "ID",
+                        "fieldLabel": "Nombre Regimen",
                         "anchor": "100%",
-                        "name": "id"
+                        "name": "NombreRegimen"
                     }
                 },
                 {
@@ -56,9 +57,9 @@
                     "jsClass": "MyTextField1",
                     "snapToGrid": 10,
                     "userConfig": {
-                        "fieldLabel": "nombre",
+                        "fieldLabel": "Pide CURP",
                         "anchor": "100%",
-                        "name": "nombre"
+                        "name": "PideCURP"
                     }
                 },
                 {
@@ -154,6 +155,18 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "MyTextField2",
+                    "cid": "textfield",
+                    "jsClass": "MyTextField2",
+                    "snapToGrid": 10,
+                    "userConfig": {
+                        "fieldLabel": "Activo",
+                        "anchor": "100%",
+                        "id": "",
+                        "name": "Activo"
+                    }
                 }
             ]
         }

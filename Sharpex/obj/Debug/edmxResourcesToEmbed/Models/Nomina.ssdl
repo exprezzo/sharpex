@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MARPAC_CorporativaModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MARPAC_CorporativaModelStoreContainer">
+    <EntitySet Name="RegimenesFiscales" EntityType="MARPAC_CorporativaModel.Store.RegimenesFiscales" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="RegimenesFiscales">
+    <Key>
+      <PropertyRef Name="CodigoRegimen" />
+    </Key>
+    <Property Name="CodigoRegimen" Type="int" Nullable="false" />
+    <Property Name="NombreRegimen" Type="nvarchar" Nullable="false" MaxLength="60" />
+    <Property Name="PideCURP" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="Activo" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ID_UsuarioAlta" Type="int" />
+    <Property Name="RegistroAlta" Type="datetime" />
+    <Property Name="ID_UsuarioCambio" Type="int" />
+    <Property Name="RegistroCambio" Type="datetime" />
+  </EntityType>
+</Schema>
